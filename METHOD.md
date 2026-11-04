@@ -66,6 +66,8 @@ Close the PDF and write a two-sentence summary that uses no words from the paper
 
 If you get stuck on part of a sentence, go back to the paper only to fill that one gap.
 
+**Step 5 passes when** sentence 2 says what happened, why (the "works like" part), and how the study knew, with no title words.
+
 # Phase 2: Verify and steal (15 minutes)
 
 Don't read the paper cover to cover. Phase 1 already got most of the conceptual value. Phase 2 turns it into something usable at work.
@@ -118,3 +120,4 @@ The method improves with every paper. Each step of each paper ends by noting wha
 | 2026-11-04 | Step 3: add a pass test, answering the step 2 question in one line per part | Agents' Last Exam, step 3 |
 | 2026-11-04 | Step 3: when your reading and a summary disagree, the paper's own sentence wins | Agents' Last Exam, step 3 |
 | 2026-11-04 | Step 4: one everyday scene across all terms, add a pass test | Agents' Last Exam, step 4 |
+| 2026-11-04 | Step 5: sentence 2 must carry the mechanism and the evidence, add a pass test | Agents' Last Exam, step 5 |

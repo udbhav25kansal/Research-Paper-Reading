@@ -60,7 +60,7 @@ Earlier toy examples from the AI summary I started with, kept because they're st
 
 ## 5. Zero-jargon summary
 
-People assumed AI coding bots were ready to take over real office work because they ace short, text-only programming puzzles. This study shows that hours-long jobs need the bot to switch between writing code and clicking through desktop software, and that even the best setup only finishes about a quarter of them when a strict script checks the final file.
+People assumed AI bots that ace coding tests were ready to take over whole jobs. This study shows they're like a bright intern who handles short errands well but loses the thread on a long project: on real work that mixes typing and clicking for hours, they almost never pass the hardest jobs once an automatic check compares the result with an expert's.
 
 ## 6. Visuals
 
