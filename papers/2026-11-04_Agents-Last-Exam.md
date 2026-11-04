@@ -98,19 +98,25 @@ What the table says:
    - What to take from it: gate first, then score. Count only fields that should hold a value, so leaving things blank can't score. An extra field fails, so doing more than asked is wrong. Agree up front what counts as the same value.
 2. Second example: not done yet, deferred for now.
 
-## 8. One-workflow audit
+## 8. Takeaways
 
-| Pattern from the paper | Question about my automation | Answer |
-|---|---|---|
-| CLI and GUI split | Am I making something click through a screen when an API or script could do 90% of it? Is my script breaking on the 10% that needs a screen? | |
-| Short checked stages | Does the workflow run more than 10 to 15 steps without a checkpoint? Where can I split it into smaller stages I can verify? | |
-| Deterministic `evaluate()` | Can I write a 20-line script today that checks the output file or database, with no model judging it? | |
+On AI doing long, real work:
 
-What I can steal:
+> AI handles short tasks well but falls apart on long ones, so split the work into short stages and check every result with a script, not an opinion.
 
-1. Use code and APIs for most of the work and keep screen clicking for the legacy software that has no API.
-2. Break long processes into short stages with a check after each. The 10 to 15 minute limit is my own rule of thumb, not a number from the paper.
-3. Write the `evaluate()` check before building the automation: the file exists, the schema matches, the totals reconcile.
+For teammates:
+
+> The best AI agents finish only about 1 in 4 real multi-hour jobs, and almost none of the hardest.
+> Don't pay for a pricier model to fix that: cut the work into short steps and check each result against a known right answer.
+
+On how to check AI work:
+
+> Judge AI work by its final output, checked by a script against an expert's answer: format first, then field by field, never by whether it looks right.
+
+For teammates:
+
+> Define "done" before you build: a strict gate that gives zero to anything missing, malformed or extra, then a score for how many fields match an expert's answer.
+> Only count what should be filled in, so leaving things blank can't score, and let a script decide instead of a person or another AI.
 
 ## Sources
 
