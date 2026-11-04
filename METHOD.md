@@ -89,6 +89,12 @@ Open the HTML version on arXiv or the lab's blog post and look at three things o
 
 Before a number goes into a note, check it against the paper's own table. Press releases, summaries and AI write-ups get numbers wrong or mix up tables.
 
+- Read figures in the PDF. HTML versions often draw figures over the text.
+- Check what a number is a total of. Divide before you compare, for example a tier's total cost by its number of tasks.
+- Check the denominator. The pool a headline counts and the set actually tested can differ.
+
+**Step 6 passes when** you have one line per visual and at least one headline number checked against the paper's own table.
+
 ## 7. Click through two real examples (5 minutes)
 
 If the paper has a demo, a dataset viewer or released code, open two real examples instead of reading descriptions of them. Pick one close to my work and one outside it. Look at the input, the messy material the system is handed, and how success is checked.
@@ -121,3 +127,4 @@ The method improves with every paper. Each step of each paper ends by noting wha
 | 2026-11-04 | Step 3: when your reading and a summary disagree, the paper's own sentence wins | Agents' Last Exam, step 3 |
 | 2026-11-04 | Step 4: one everyday scene across all terms, add a pass test | Agents' Last Exam, step 4 |
 | 2026-11-04 | Step 5: sentence 2 must carry the mechanism and the evidence, add a pass test | Agents' Last Exam, step 5 |
+| 2026-11-04 | Step 6: read figures in the PDF, divide totals before comparing, check the denominator, add a pass test | Agents' Last Exam, step 6 |

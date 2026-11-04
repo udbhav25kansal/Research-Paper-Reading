@@ -8,7 +8,7 @@ field: AI agents
 date_read: 2026-11-04
 status: Verifying
 one_line: The best AI setups finish only about a quarter of real multi-hour office jobs once a strict script checks the result.
-corrections: 4
+corrections: 5
 threads:
   - How do you know an automation actually worked?
   - Where should a person stay in the loop?
@@ -64,19 +64,31 @@ People assumed AI bots that ace coding tests were ready to take over whole jobs.
 
 ## 6. Visuals
 
-- Architecture: task spec, harness and VM are separate pieces, so any harness can be tested on any task. GUI apps reach the harness through the MCP bridge.
-- Cost versus performance: per the blog, Fable 5 about $15.70 per task, GPT-5.5 about $3.80, Composer 2.5 about $1.33, for similar performance.
-- Results by tier, full benchmark (Table 1):
+Read in the PDF. The HTML version draws some figures over the text.
 
-| Setup | Overall | Near-Term | Full-Spectrum | Last-Exam |
-|---|---|---|---|---|
-| Codex, GPT-5.5 | 24.0 | 38.1 | 22.7 | 0.0 |
-| ALE-Claw, GPT-5.5 | 23.0 | | | 2.6 |
-| Claude Code, Fable 5 | 22.0 | | | 0.0 |
-| OpenClaw, GPT-5.5 | 21.1 | | | |
+- Figure 6, how a task runs: each task runs on its own virtual computer set up with the files and software the job needs. The AI gets only the written instructions, works through the task by clicking, typing and running commands, and when it's done, a script scores what it produced against an expert's reference answer or a marking rubric.
+- Figure 8, how the AI works: in a loop. It gathers what it knows so far, asks the language model what to do next, picks an action and carries it out with its tools (the terminal, files and, through a connector, the screen's mouse and keyboard), then looks at the result and goes round again until it decides the job is done.
+- Figure 13, cost: each bubble is one setup, plotted as score against total cost and against time. Top-left means more done for less.
 
-  The best score on the hardest tier is 2.6%. Most setups score 0.
-- Terminal-only subset (ALE-CLI, 105 Linux tasks): Codex with GPT-5.5 gets 23.3% overall (37.2 / 19.0 / 0.0), against its 82% on Terminal-Bench.
+Table 1, pass rates in %, on 160 tasks (67 Near-Term, 55 Full-Spectrum, 38 Last-Exam). Per-task cost is the three tier totals divided by 160.
+
+| Setup | Overall pass | Near-Term | Full-Spectrum | Last-Exam | Total cost | Per task |
+|---|---|---|---|---|---|---|
+| Codex, GPT-5.5 | 24.0 | 38.1 | 22.7 | 0.0 | $570 | ~$3.56 |
+| ALE-Claw, GPT-5.5 | 23.0 | 32.8 | 23.6 | 2.6 | $326 | ~$2.04 |
+| Claude Code, Fable 5 | 22.0 | 34.3 | 20.9 | 0.0 | $2,402 | ~$15.01 |
+| OpenClaw, GPT-5.5 | 21.1 | 35.8 | 18.2 | 0.0 | $477 | ~$2.98 |
+| Cursor, GPT-5.5 | 20.7 | 32.1 | 20.0 | 2.6 | $180 | ~$1.12 |
+| Cursor, Composer 2.5 | 20.4 | 34.3 | 18.2 | 0.0 | $87 | ~$0.54 |
+| Cursor, Opus 4.7 | 20.4 | 29.9 | 20.0 | 2.6 | $2,012 | ~$12.57 |
+| Droid, GPT-5.5 | 19.1 | 29.9 | 16.4 | 2.6 | $251 | ~$1.57 |
+
+What the table says:
+
+1. Almost nothing passes the hardest tier. Four setups score 2.6%, which is one task out of 38. Everyone else scores 0.
+2. Spending more doesn't buy a higher score. The best setup (Codex, GPT-5.5) costs about $3.60 a task. Claude Code with Fable 5 costs about $15 a task and scores lower.
+3. The wrapper matters as much as the model. With GPT-5.5 fixed, changing only the tool around it moves the overall score from 24.0 to 19.1.
+4. The headline says 1,500 tasks, but these results cover 160.
 
 ## 7. Two real examples
 
@@ -112,3 +124,5 @@ The blog and the paper also differ from each other:
 - The blog (June) says the best agent passes 25.2% on ALE-CLI. The paper (v4, October) gives Codex with GPT-5.5 23.3% there.
 - The 59.1% on SWE-bench-Pro and the cost figures (Fable 5 about $15.70, GPT-5.5 about $3.80, Composer 2.5 about $1.33 per task) are in the blog, not the paper text I checked.
 - The blog says every agent scored 0% on the hardest tier. The paper's table shows four setups at 2.6%, with the average below 1%.
+- The blog says the agents were tested on more than 1,500 tasks. The results table covers 160 of them.
+- The paper says one task costs "$3 to 10 on average" (section 4.1). From Table 1, Claude Code with Fable 5 costs about $15 a task, close to the blog's $15.70 and well above that range.
