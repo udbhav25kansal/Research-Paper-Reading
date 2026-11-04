@@ -8,7 +8,7 @@ field: AI agents
 date_read: 2026-11-04
 status: Verifying
 one_line: The best AI setups finish only about a quarter of real multi-hour office jobs once a strict script checks the result.
-corrections: 5
+corrections: 4
 threads:
   - How do you know an automation actually worked?
   - Where should a person stay in the loop?
@@ -18,7 +18,9 @@ threads:
 
 ## 1. Press summary punchline
 
-Top coding agents look superhuman on coding benchmarks: Codex with GPT-5.5 scores 82% on Terminal-Bench. On 1,490 real professional tasks that take people hours or days, the best setup passes 24.0%, and almost nothing passes the hardest tier. Real jobs mix terminal work with clicking through desktop apps over hours, and the agents lose the thread.
+From the Berkeley RDI blog post (https://rdi.berkeley.edu/blog/agents-last-exam/, June 2026), in its own words: "The age of useful agents is here. The age of truly job-ready agents is not."
+
+They gave Fable 5, GPT-5.5, Composer 2.5 and other top agents more than 1,500 expert-written tasks across 55 occupations. The agents solve a meaningful share, but on the hardest tier every one of them scored 0%. The most capable model costs about 4 to 12 times more per finished task than cheaper ones that perform about the same.
 
 ## 2. My one question
 
@@ -49,7 +51,7 @@ People assumed AI coding bots were ready to take over real office work because t
 ## 6. Visuals
 
 - Architecture: task spec, harness and VM are separate pieces, so any harness can be tested on any task. GUI apps reach the harness through the MCP bridge.
-- Cost versus performance: not checked yet.
+- Cost versus performance: per the blog, Fable 5 about $15.70 per task, GPT-5.5 about $3.80, Composer 2.5 about $1.33, for similar performance.
 - Results by tier, full benchmark (Table 1):
 
 | Setup | Overall | Near-Term | Full-Spectrum | Last-Exam |
@@ -82,11 +84,17 @@ What I can steal:
 
 ## Fact check
 
-Checked against arXiv v4 on 2026-11-04. The summary I started from got these wrong:
+Checked on 2026-11-04 against the paper (arXiv v4) and the RDI blog post.
 
-- Best overall pass rate is 24.0% (Codex, GPT-5.5), not 25.2%.
-- 1,490 is task instances (from 960 workflows), across 55 subfields in 13 clusters.
-- "Under 10% on the hardest tier" is the intro's wording. The table gives Codex 0.0% pass there, and the best is 2.6%.
-- The 37.2 / 19.0 tier numbers are from the terminal-only subset, not the full benchmark.
-- No SWE-bench-Pro score (59.1%) appears in the paper.
-- Not yet checked: the $15.70 versus $1.33 to $3.80 per-task cost figures, the RDI blog post and the demo page.
+The AI summary I started from got these wrong:
+
+- It gave 25.2% as the best overall pass rate on all tasks. The blog's 25.2% is for the terminal-only subset (ALE-CLI). On the full benchmark the best is 24.0% (Codex, GPT-5.5).
+- It called 1,490 "workflows across 55 domains". The paper has 960 workflows, split into 1,490 task instances, across 55 subfields in 13 clusters.
+- "Under 10% on the hardest tier" is the intro's wording. The table gives Codex 0.0% there, and the best of any setup is 2.6%.
+- It presented 37.2% and 19.0% as full-benchmark tier scores. They're from the terminal-only subset.
+
+The blog and the paper also differ from each other:
+
+- The blog (June) says the best agent passes 25.2% on ALE-CLI. The paper (v4, October) gives Codex with GPT-5.5 23.3% there.
+- The 59.1% on SWE-bench-Pro and the cost figures (Fable 5 about $15.70, GPT-5.5 about $3.80, Composer 2.5 about $1.33 per task) are in the blog, not the paper text I checked.
+- The blog says every agent scored 0% on the hardest tier. The paper's table shows four setups at 2.6%, with the average below 1%.

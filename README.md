@@ -5,7 +5,7 @@
 <!-- BEGIN:stats -->
 | Papers read | Fields | Claims corrected against the source |
 |:---:|:---:|:---:|
-| **1** | **1** | **5** |
+| **1** | **1** | **4** |
 <!-- END:stats -->
 
 ## Start here
