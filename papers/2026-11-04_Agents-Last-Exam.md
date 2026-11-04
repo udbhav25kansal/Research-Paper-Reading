@@ -1,9 +1,20 @@
-# Agents' Last Exam (ALE)
+---
+title: Agents' Last Exam
+authors: Yiyou Sun and 378 others, led by UC Berkeley RDI
+published: 2026-06-03
+source: https://arxiv.org/abs/2606.05405
+project: https://agents-last-exam.org
+field: AI agents
+date_read: 2026-11-04
+status: Verifying
+one_line: The best AI setups finish only about a quarter of real multi-hour office jobs once a strict script checks the result.
+corrections: 5
+threads:
+  - How do you know an automation actually worked?
+  - Where should a person stay in the loop?
+---
 
-- Paper: https://arxiv.org/abs/2606.05405 (v4, 25 Oct 2026, 379 authors, led by UC Berkeley RDI)
-- Project: https://agents-last-exam.org
-- Source hub: UC Berkeley RDI (Dawn Song's group)
-- Date read: 2026-11-04
+# Agents' Last Exam
 
 ## 1. Press summary punchline
 

@@ -1,7 +1,12 @@
 #!/bin/sh
-# This repo takes commits from the personal address only.
+# 1. This repo takes commits from the personal address only.
 if [ "$(git config user.email)" != "udbhav25kansal@gmail.com" ]; then
   echo "Refused: commit email is $(git config user.email), this repo only takes udbhav25kansal@gmail.com" >&2
   exit 1
 fi
-exec python -I "$(git rev-parse --show-toplevel)/.githooks/check_safe.py" commit
+root="$(git rev-parse --show-toplevel)"
+# 2. Rebuild the README from the paper notes and include it in this commit.
+python -I "$root/scripts/build_readme.py" || exit 1
+git add "$root/README.md"
+# 3. Refuse anything that should stay on this machine.
+exec python -I "$root/.githooks/check_safe.py" commit

@@ -1,9 +1,21 @@
+---
+title: Paper title
+authors: First author and N others, lab or university
+published: YYYY-MM-DD
+source: link to the paper
+field: one or two words, reused across notes (AI agents, Neuroscience, ...)
+date_read: YYYY-MM-DD
+status: Reading            # Reading, Verifying or Done
+one_line: The idea in one plain sentence, no words from the title.
+corrections: 0             # numbers from summaries that the paper contradicted
+threads:
+  - A question this paper helps answer, worded the same way in every note
+---
+
 # Paper title
 
-- Paper: link
 - Press release: link
 - Source hub: MIT Picower / McGovern / HBI / Cosyne / Nature Neuroscience News & Views
-- Date read: YYYY-MM-DD
 
 ## 1. Press summary punchline
 

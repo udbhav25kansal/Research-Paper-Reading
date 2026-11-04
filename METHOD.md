@@ -80,3 +80,10 @@ Close the tabs. Take one automation I'm building now and ask three questions the
 ## Done when
 
 The visuals are read, two examples are inspected and one of my workflows is mapped to the pattern. Archive the paper and move on.
+
+# Filing a note
+
+1. Copy `templates/paper-note.md` to `papers/YYYY-MM-DD_Short-Title.md`.
+2. Fill in the header first: field, status, the one-line idea, and the threads it feeds. Reuse the exact wording of an existing field or thread so papers group together.
+3. Move the status from Reading to Verifying to Done as the phases finish.
+4. Commit. The README rebuilds itself from the headers.
