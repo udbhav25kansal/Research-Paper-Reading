@@ -55,6 +55,8 @@ Skip the Methods and Results text completely.
 
 When Feynman read biology papers at Caltech and hit an abstract term like "retrograde cortical feedback modulation", he stopped and forced a concrete toy example: "Neuron A sends a slow-down signal back to Neuron B when the eye moves". When you hit a word you don't know, swap it for a simple mechanical action: input X triggers switch Y.
 
+Use one everyday scene (booking a flight, doing your taxes) across all the terms, so the translations connect into one picture. **Step 4 passes when** a non-expert could picture each term from your example alone.
+
 ## 5. Zero-jargon output test (2 minutes)
 
 Close the PDF and write a two-sentence summary that uses no words from the paper's title.
@@ -115,3 +117,4 @@ The method improves with every paper. Each step of each paper ends by noting wha
 | 2026-11-04 | Step 3: "Here we show" is a role, not a literal phrase; find the paragraph that states the contribution and the finding | Agents' Last Exam, step 3 |
 | 2026-11-04 | Step 3: add a pass test, answering the step 2 question in one line per part | Agents' Last Exam, step 3 |
 | 2026-11-04 | Step 3: when your reading and a summary disagree, the paper's own sentence wins | Agents' Last Exam, step 3 |
+| 2026-11-04 | Step 4: one everyday scene across all terms, add a pass test | Agents' Last Exam, step 4 |

@@ -47,9 +47,16 @@ Notes:
 
 | Term in the paper | Concrete toy example |
 |---|---|
-| Computer-use MCP bridge | Giving a terminal bot eyes (screenshots) and a mouse (clicks) as normal tools, so it can write a Python script and then click Export in an old desktop app that has no API. |
-| Outcome-based, verifiable evaluation | Instead of asking another model "does this look right?", a script opens the final spreadsheet and checks that cell B14 equals 420.50. |
-| Long-horizon failure | After 45 minutes and 80 tool calls the bot has forgotten a rule from step 2, loops on a small bug, and runs out the clock. |
+| Generalist Computer-Use Agent (GCUA) | A robot intern sitting at your computer. Give it any errand (your taxes, a meeting, a flight to Paris) and it does what you would: types commands in the terminal, opens booking.com, scrolls, clicks Book. One intern, any errand. |
+| Long-horizon task | Doing your taxes, not typing one number. Read the rules, pick the deductions, find the right form, fill it in, answer the accountant's email. Forty steps over an afternoon, and the deduction chosen at step 1 still has to be there at step 40. That's where agents drop the ball. |
+| Milestone-based check | A checkpoint that inspects a result on the way, not an action. Before paying for the Paris ticket: is the flight in the basket the 12 March one? If not, stop there instead of waiting for the receipt. "Did it open the website?" is an action; "is the right flight in the basket?" is a milestone. |
+| Verifiable outcome | A yes-or-no question about the final result that a script can settle without opinion. "Is the booked ticket the cheapest one on that site for 12 March?" Compare it with the cheapest fare an expert found: same price, pass. Not "does the booking look right?" |
+
+Earlier toy examples from the AI summary I started with, kept because they're still useful:
+
+| Term | Toy example |
+|---|---|
+| Computer-use MCP bridge | Giving a terminal bot eyes (screenshots) and a mouse (clicks) as normal tools, so it can write a script and then click Export in an old desktop app that has no API. |
 
 ## 5. Zero-jargon summary
 
