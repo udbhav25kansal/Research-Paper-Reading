@@ -28,6 +28,13 @@ Where do agents break on real jobs, and how do I check that mine actually finish
 
 ## 3. Bypass notes
 
+My answers to my question:
+
+1. Where they break: on long, real jobs that mix command-line and on-screen work, and they get worse as the jobs get harder.
+2. How finishing is checked: only the final deliverable is graded, against an expert's reference answer, by an automatic script instead of a human or AI judge.
+
+Notes:
+
 - Abstract: a benchmark of long, economically valuable, real-world tasks with verifiable outcomes. 1K+ tasks in 55 subfields grouped into 13 industry clusters, built with 250+ industry experts. On the hardest tier the average full pass rate is below 1%.
 - How a task is built (Section 3.1): three parts.
   1. The task spec, a `main.py` with `load()`, `start()` and `evaluate()`. `evaluate()` scores the final output from 0 to 1 and ignores how the agent got there.
