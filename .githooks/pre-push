@@ -1,0 +1,2 @@
+#!/bin/sh
+exec python -I "$(git rev-parse --show-toplevel)/.githooks/check_safe.py" push
