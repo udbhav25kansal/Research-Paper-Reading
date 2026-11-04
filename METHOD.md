@@ -35,6 +35,8 @@ It commits to the result. "We tested how good they really are" is not a punchlin
 
 Don't read a paper outside your field to learn the whole paper. Write down one question you're trying to steal an answer for, for example "How does the visual cortex compress data compared to a camera?" or "What is the core input-to-output rule here?". Ignore every paragraph that doesn't answer it.
 
+Check that this kind of paper can answer your question. A benchmark or exam paper tells you where things break and how success is measured, not how to build the thing. **Step 2 passes when** the question is specific, is tied to something you'd do with the answer, and is one this paper can answer.
+
 ## 3. Run the Figure 1 and last-paragraph bypass (3 minutes)
 
 In Nature, Science and Cell papers, Figure 1 is usually the conceptual architecture of the discovery, and the last paragraph of the Introduction ("Here we show...") states the breakthrough. Read only:
@@ -105,3 +107,4 @@ The method improves with every paper. Each step of each paper ends by noting wha
 | Date | Change | Learned from |
 |---|---|---|
 | 2026-11-04 | Step 1: read only the opening of a long post, define the punchline as belief versus finding, add a pass test | Agents' Last Exam, step 1 |
+| 2026-11-04 | Step 2: check that the paper's type can answer the question, add a pass test | Agents' Last Exam, step 2 |

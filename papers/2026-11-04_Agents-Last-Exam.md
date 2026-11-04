@@ -24,7 +24,7 @@ Source: the Berkeley RDI blog post, https://rdi.berkeley.edu/blog/agents-last-ex
 
 ## 2. My one question
 
-Why do agents that pass coding tests fail on real multi-hour business workflows, and how do I wire an agent and a verification check so it actually finishes the job?
+Where do agents break on real jobs, and how do I check that mine actually finished?
 
 ## 3. Bypass notes
 
