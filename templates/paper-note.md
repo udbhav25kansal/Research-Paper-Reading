@@ -61,6 +61,16 @@ Gaps I had to go back for:
 |---|---|---|
 |  |  |  |
 
+## Sources
+
+Read and relied on:
+
+1.
+
+Seen but not relied on:
+
+1.
+
 ## Fact check
 
 Numbers that differed between the press summary and the paper:

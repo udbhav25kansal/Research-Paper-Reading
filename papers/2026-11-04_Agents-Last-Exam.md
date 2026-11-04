@@ -108,6 +108,21 @@ What I can steal:
 2. Break long processes into short stages with a check after each. The 10 to 15 minute limit is my own rule of thumb, not a number from the paper.
 3. Write the `evaluate()` check before building the automation: the file exists, the schema matches, the totals reconcile.
 
+## Sources
+
+Read and relied on:
+
+1. The paper, arXiv 2606.05405, version 4 (25 Oct 2026): https://arxiv.org/abs/2606.05405 (PDF https://arxiv.org/pdf/2606.05405, HTML https://arxiv.org/html/2606.05405). Abstract, Introduction, Sections 3.1, 3.2 and 4.1, Table 1, captions for Figures 6, 8 and 13.
+2. Berkeley RDI blog post, June 2026: https://rdi.berkeley.edu/blog/agents-last-exam/. Punchline, cost per task, the 0% and 1,500+ task claims.
+3. ALE demo page: https://agents-last-exam.org/demo. Step 7 examples.
+
+Seen but not relied on:
+
+4. An AI-written summary I started from. Several of its numbers were wrong (see Fact check).
+5. Hugging Face paper page, https://huggingface.co/papers/2606.05405, and news write-ups found by search. One gave conflicting pass rates.
+
+Linked from the blog, not opened yet: the leaderboard (https://agents-last-exam.org/leaderboard), the dataset (https://huggingface.co/datasets/agents-last-exam/agents-last-exam) and the code (https://github.com/rdi-berkeley/agents-last-exam).
+
 ## Fact check
 
 Checked on 2026-11-04 against the paper (arXiv v4) and the RDI blog post.
