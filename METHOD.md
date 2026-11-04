@@ -1,6 +1,6 @@
 # How we read a paper: Feynman-to-Frontier
 
-About 13 minutes per paper.
+About 13 minutes for phase 1, then 15 minutes for phase 2.
 
 ```
 Source from elite lab feeds
@@ -47,3 +47,36 @@ Close the PDF and write a two-sentence summary that uses no words from the paper
 - Sentence 2, the new mechanism: "...but this experiment shows it actually works like [simple mechanical system] by doing Y."
 
 If you get stuck on part of a sentence, go back to the paper only to fill that one gap.
+
+# Phase 2: Verify and steal (15 minutes)
+
+Don't read the paper cover to cover. Phase 1 already got most of the conceptual value. Phase 2 turns it into something usable at work.
+
+```
+Look at three visuals (3 min)
+  -> Click through two real examples (5 min)
+  -> Audit one of my own workflows against the pattern (7 min)
+  -> Done: archive it
+```
+
+## 6. Look at the visuals, not the text (3 minutes)
+
+Open the HTML version on arXiv or the lab's blog post and look at three things only:
+
+- the architecture diagram, traced end to end
+- any cost versus performance chart
+- the main results table, read by difficulty tier
+
+Before a number goes into a note, check it against the paper's own table. Press releases, summaries and AI write-ups get numbers wrong or mix up tables.
+
+## 7. Click through two real examples (5 minutes)
+
+If the paper has a demo, a dataset viewer or released code, open two real examples instead of reading descriptions of them. Pick one close to my work and one outside it. Look at the input, the messy material the system is handed, and how success is checked.
+
+## 8. Run a one-workflow audit on my own job (7 minutes)
+
+Close the tabs. Take one automation I'm building now and ask three questions the paper's core pattern raises. Write the answers down.
+
+## Done when
+
+The visuals are read, two examples are inspected and one of my workflows is mapped to the pattern. Archive the paper and move on.
