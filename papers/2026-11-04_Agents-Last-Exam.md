@@ -6,7 +6,7 @@ source: https://arxiv.org/abs/2606.05405
 project: https://agents-last-exam.org
 field: AI agents
 date_read: 2026-11-04
-status: Verifying
+status: Done
 one_line: The best AI setups finish only about a quarter of real multi-hour office jobs once a strict script checks the result.
 corrections: 5
 threads:

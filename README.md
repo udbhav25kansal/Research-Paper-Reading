@@ -33,7 +33,7 @@ Every paper I've read, newest first.
 <!-- BEGIN:log -->
 | Read | Paper | Field | The idea in one line | Status |
 |---|---|---|---|---|
-| 2026-11-04 | [Agents' Last Exam](papers/2026-11-04_Agents-Last-Exam.md) | AI agents | The best AI setups finish only about a quarter of real multi-hour office jobs once a strict script checks the result. | Verifying |
+| 2026-11-04 | [Agents' Last Exam](papers/2026-11-04_Agents-Last-Exam.md) | AI agents | The best AI setups finish only about a quarter of real multi-hour office jobs once a strict script checks the result. | Done |
 <!-- END:log -->
 
 ## Threads
