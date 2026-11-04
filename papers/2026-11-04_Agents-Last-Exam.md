@@ -31,7 +31,7 @@ Where do agents break on real jobs, and how do I check that mine actually finish
 My answers to my question:
 
 1. Where they break: on long, real jobs that mix command-line and on-screen work, and they get worse as the jobs get harder.
-2. How finishing is checked: only the final deliverable is graded, against an expert's reference answer, by an automatic script instead of a human or AI judge.
+2. How finishing is checked: graded against expert references and rubrics, either on the final deliverable or at milestones along the way, mostly by automatic scripts rather than a human or AI judge.
 
 Notes:
 

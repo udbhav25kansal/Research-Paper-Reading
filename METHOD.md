@@ -49,7 +49,7 @@ Skip the Methods and Results text completely.
 
 "Here we show" is a role, not a phrase to search for. Many papers never use those words. Look for the paragraph that says what the paper introduces and the sentence that states what it found, usually in the last two or three paragraphs of the Introduction.
 
-**Step 3 passes when** you can answer your step 2 question in one line per part, or say which part these three pieces don't answer.
+**Step 3 passes when** you can answer your step 2 question in one line per part, or say which part these three pieces don't answer. When your reading and a summary disagree, quote the paper's own sentence. It wins.
 
 ## 4. Apply the concrete cat translation (5 minutes)
 
@@ -114,3 +114,4 @@ The method improves with every paper. Each step of each paper ends by noting wha
 | 2026-11-04 | Step 2: check that the paper's type can answer the question, add a pass test | Agents' Last Exam, step 2 |
 | 2026-11-04 | Step 3: "Here we show" is a role, not a literal phrase; find the paragraph that states the contribution and the finding | Agents' Last Exam, step 3 |
 | 2026-11-04 | Step 3: add a pass test, answering the step 2 question in one line per part | Agents' Last Exam, step 3 |
+| 2026-11-04 | Step 3: when your reading and a summary disagree, the paper's own sentence wins | Agents' Last Exam, step 3 |
