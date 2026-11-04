@@ -47,6 +47,8 @@ In Nature, Science and Cell papers, Figure 1 is usually the conceptual architect
 
 Skip the Methods and Results text completely.
 
+"Here we show" is a role, not a phrase to search for. Many papers never use those words. Look for the paragraph that says what the paper introduces and the sentence that states what it found, usually in the last two or three paragraphs of the Introduction.
+
 ## 4. Apply the concrete cat translation (5 minutes)
 
 When Feynman read biology papers at Caltech and hit an abstract term like "retrograde cortical feedback modulation", he stopped and forced a concrete toy example: "Neuron A sends a slow-down signal back to Neuron B when the eye moves". When you hit a word you don't know, swap it for a simple mechanical action: input X triggers switch Y.
@@ -108,3 +110,4 @@ The method improves with every paper. Each step of each paper ends by noting wha
 |---|---|---|
 | 2026-11-04 | Step 1: read only the opening of a long post, define the punchline as belief versus finding, add a pass test | Agents' Last Exam, step 1 |
 | 2026-11-04 | Step 2: check that the paper's type can answer the question, add a pass test | Agents' Last Exam, step 2 |
+| 2026-11-04 | Step 3: "Here we show" is a role, not a literal phrase; find the paragraph that states the contribution and the finding | Agents' Last Exam, step 3 |
