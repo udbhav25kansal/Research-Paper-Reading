@@ -92,7 +92,11 @@ What the table says:
 
 ## 7. Two real examples
 
-Not done yet. Open two tasks on https://agents-last-exam.org (one operations workflow, one engineering workflow) and read the prompt, the input files and the `evaluate()` script.
+1. Accounting and finance, Form 1040 (variant task1, from https://agents-last-exam.org/demo).
+   - Handed: a blank Form 1040 served as a local web page, a README, a page-order file, and a text file of taxpayer facts, filing rules and tax brackets. The bot fills the form and clicks Save, which writes a JSON file. That file is the deliverable.
+   - Checked: on the final deliverable only, by a script, with no AI judge. First a hard gate: a missing file, a missing or wrong-type field, or any extra field scores 0. Then the score is the share of fields that should hold a value which match the expert's answer. Numbers compare within 0.01 after commas are stripped; checkboxes compare as sets.
+   - What to take from it: gate first, then score. Count only fields that should hold a value, so leaving things blank can't score. An extra field fails, so doing more than asked is wrong. Agree up front what counts as the same value.
+2. Second example: not done yet, deferred for now.
 
 ## 8. One-workflow audit
 
