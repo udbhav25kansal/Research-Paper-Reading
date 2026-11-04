@@ -19,7 +19,17 @@ Never search raw databases. Skip PubMed and Google Scholar and go straight to cu
 - Cosyne (Computational and Systems Neuroscience) top papers
 - Nature Neuroscience "News & Views"
 
-Pick a paper only after reading its two-paragraph university press release. That gives you the punchline before you face the jargon.
+Pick a paper only after reading its two-paragraph university press release. That gives you the punchline before you face the jargon. If the post is long, read only its opening paragraphs; the charts and comparisons wait for step 6.
+
+The punchline is the main finding, said plainly. It has two halves:
+
+```
+What people believed   ->   what this study actually found
+```
+
+It commits to the result. "We tested how good they really are" is not a punchline. "They're useful on easy tasks but fail on the hardest" is.
+
+**Step 1 passes when** you can say the punchline in one sentence of your own and you've decided the paper is worth the next 25 minutes.
 
 ## 2. Set your mercenary intent (30 seconds, before opening the PDF)
 
@@ -87,3 +97,11 @@ The visuals are read, two examples are inspected and one of my workflows is mapp
 2. Fill in the header first: field, status, the one-line idea, and the threads it feeds. Reuse the exact wording of an existing field or thread so papers group together.
 3. Move the status from Reading to Verifying to Done as the phases finish.
 4. Commit. The README rebuilds itself from the headers.
+
+# How this method changes
+
+The method improves with every paper. Each step of each paper ends by noting what it taught, and the change lands here.
+
+| Date | Change | Learned from |
+|---|---|---|
+| 2026-11-04 | Step 1: read only the opening of a long post, define the punchline as belief versus finding, add a pass test | Agents' Last Exam, step 1 |

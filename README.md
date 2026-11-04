@@ -49,7 +49,7 @@ The questions I keep pulling on. Each one gathers the papers that answer part of
 
 ## How I read a paper
 
-Two phases, about half an hour in all. The full method is in [METHOD.md](METHOD.md).
+Two phases, about half an hour in all. The full method is in [METHOD.md](METHOD.md), and it improves with every paper: see its changelog.
 
 ```
 PHASE 1  READ  (13 min)                     PHASE 2  VERIFY AND STEAL  (15 min)

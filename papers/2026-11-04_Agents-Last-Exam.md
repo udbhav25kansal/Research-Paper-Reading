@@ -18,9 +18,9 @@ threads:
 
 ## 1. Press summary punchline
 
-From the Berkeley RDI blog post (https://rdi.berkeley.edu/blog/agents-last-exam/, June 2026), in its own words: "The age of useful agents is here. The age of truly job-ready agents is not."
+People think AI agents are about to be job-ready. This study shows they're useful on easier tasks but fail completely on the hardest real ones.
 
-They gave Fable 5, GPT-5.5, Composer 2.5 and other top agents more than 1,500 expert-written tasks across 55 occupations. The agents solve a meaningful share, but on the hardest tier every one of them scored 0%. The most capable model costs about 4 to 12 times more per finished task than cheaper ones that perform about the same.
+Source: the Berkeley RDI blog post, https://rdi.berkeley.edu/blog/agents-last-exam/ (June 2026). Its own line: "The age of useful agents is here. The age of truly job-ready agents is not."
 
 ## 2. My one question
 
